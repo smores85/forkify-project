@@ -1,0 +1,22 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "",
+  "default":"index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "raslen",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.32.2",
+    "fractional": "^1.0.0",
+    "parcel": "^2.9.3",
+    "regenerator-runtime": "^0.14.0",
+    "sass": "^1.68.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.3"
+  }
+}
