@@ -67,12 +67,14 @@ const controllerServings = function (numServings) {
 };
 // window.addEventListener('hashchange', showRecipe);
 // ['hashchange', 'load'].map(ev => window.addEventListener(ev, showRecipe));
-
+const newFeature = function () {
+  console.log('whelcome to to the app');
+};
 const init = function () {
   recipeVue.addHandlerRender(showRecipe);
   searchView.addHandlerSearch(controlSearchResults);
   paginationView.addHandlerClick(paginationController);
   recipeVue.addHandlerRenderServings(controllerServings);
-  console.log('hi');
+  newFeature();
 };
 init();
